@@ -1,6 +1,6 @@
 ![Genetous](logo.png "Genetous")
 
-# **Genetous Android SDK**
+# **Genetous ReactJS SDK**
 
 **Genetous ReactJS SDK** is integrated with Genetous Low Code Platform.
 
