@@ -10,11 +10,11 @@ require("core-js/modules/es.promise.js");
 
 require("core-js/modules/es.json.stringify.js");
 
-const domain = process.env.domain;
+const domain = process.env.REACT_APP_DOMAIN;
 exports.domain = domain;
 const organization = {
-  application_id: process.env.application_id,
-  organization_id: process.env.organization_id
+  application_id: process.env.REACT_APP_APPLICATIONID,
+  organization_id: process.env.REACT_APP_ORGANIZATIONID
 };
 exports.organization = organization;
 const uconfig = {
