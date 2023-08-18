@@ -8,7 +8,7 @@
     "sdk",
     "baas"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files",
+    "build": "NODE_ENV=production babel src/lib --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
