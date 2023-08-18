@@ -33,5 +33,4 @@ Object.defineProperty(exports, "verify", {
     return _genetousAPI.verify;
   }
 });
-
 var _genetousAPI = require("./components/genetousAPI");
