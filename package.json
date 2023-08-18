@@ -1,5 +1,5 @@
 {
-  "name": "genetous_react",
+  "name": "@genetous/react",
   "description": "Genetous ReactJS SDK",
   "author": "Ömer YILDIRIM",
   "keywords": [
@@ -53,5 +53,17 @@
     "@babel/cli": "^7.16.7",
     "@babel/core": "^7.16.7",
     "@babel/preset-env": "^7.16.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omeryil/GenetousReactJSSDK.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omeryil/GenetousReactJSSDK/issues"
+  },
+  "homepage": "https://github.com/omeryil/GenetousReactJSSDK#readme",
+  "publishConfig": {
+    "@genetous:registry": "https://npm.pkg.github.com"
   }
 }
