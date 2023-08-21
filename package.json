@@ -56,11 +56,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/genetous/GenetousReactJSSDK.git"
+    "url": "git+https://github.com/Genetous/genetousReactJSSDK"
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/genetous/GenetousReactJSSDK/issues"
+    "url": "https://github.com/Genetous/genetousReactJSSDK/issues"
   },
-  "homepage": "https://github.com/genetous/GenetousReactJSSDK#readme"
+  "homepage": "https://github.com/Genetous/genetousReactJSSDK#readme"
 }
