@@ -1,4 +1,4 @@
-![Genetous](https://genetous.com/images/white_logo.svg "Genetous")
+![Genetous](https://genetous.com/images/logo.svg "Genetous")
 
 # **Genetous ReactJS SDK**
 
@@ -18,7 +18,10 @@ REACT_APP_CLIENT_SECRET=your application secret key
 ### **Usage sample**
 
 ```js
-import {Methods,post} from "genetous_react"
+import {
+  postWithSavedToken,
+  Methods
+} from '@genetous/react/dist/components/genetousAPI'
 
 await postWithSavedToken(collection, Methods.{AddCollection}).then(function (result) {
    //result as JSON
